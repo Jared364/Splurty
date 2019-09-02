@@ -1,5 +1,25 @@
 @import "bootstrap";
 
+h1 {
+  font-family: 'exo_2medium', sans-serif;;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'exo_2medium', sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+
+header {
+  border-top: 9px solid #222222;
+}
+
+hr {
+  clear:both;
+}
+
 .circle {
     font-weight:bold;
     font-style: italic;
@@ -31,26 +51,6 @@
   font-size: 10px;
 }
 
-h1 {
-  font-family: 'exo_2medium', sans-serif;;
-  font-weight: bold;
-  font-size: 48px;
-}
-
-h2 {
-  font-family: 'exo_2medium', sans-serif;
-  font-weight: 600;
-  letter-spacing: -1.5px;
-}
-
-header {
-  border-top: 9px solid #222222;
-}
-
-hr {
-  clear:both;
-}
-
 .links {
   padding-top: 26px;
 }
@@ -61,6 +61,10 @@ hr {
   border-bottom: 1px solid #f84342;
   font-family: 'exo_2medium', sans-serif;
   font-weight: bold;
+}
+
+.logo:hover {
+  text-decoration: none;
 }
 
 .next-quote {
